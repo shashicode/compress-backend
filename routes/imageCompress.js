@@ -73,8 +73,6 @@ router.post("/", async (req, res) => {
         if (err) {
           console.error("Error sending file:", err);
           res.status(500).send("Error sending file.");
-        } else {
-          fs.unlinkSync(outputFilePath); // Clean up the output file after sending
         }
       });
     }, 100); // 100ms delay

@@ -53,4 +53,75 @@ yarn.lock
 *.tsbuildinfo
 
 # Vercel/Netlify deployment directories
-.ver​⬤
+.vercel/
+.netlify/
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# SvelteKit build
+.svelte-kit/
+
+# Serverless Framework
+.serverless/
+
+# Temporary files
+tmp/
+temp/
+*.swp
+*~
+.*.swp
+._*
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Linux/MacOS temporary files
+*~
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore uploads folder
+uploads/
