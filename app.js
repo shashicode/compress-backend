@@ -25,7 +25,7 @@ const imageCompressRouter = require("./routes/imageCompress");
 const pdfCompressRouter = require("./routes/pdfCompress");
 
 app.use("/compress-image", upload.single("image"), imageCompressRouter);
-app.use("/compress-pdf", upload.single("pdf"), pdfCompressRouter);
+app.use("/compress-pdf", pdfCompressRouter);
 
 // Start server
 const PORT = process.env.PORT || 3000;
