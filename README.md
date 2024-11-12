@@ -14,7 +14,7 @@ Getting Started
 ## Endpoints
 
 **This is the backend, you also need to setup and run the Frontend from the below repo**
-[Local Image Compression Tool Frontend Repo](https://github.com/shashicode/compress-ui)
+[Local Image Compression Tool Frontend Repo](https://github.com/shashicode/jumbo-compress-ui)
 
 ### /compress-image
 
