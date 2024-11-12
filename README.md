@@ -1,4 +1,5 @@
 Local Image Compression Tool
+
 Tired of unreliable online image compression tools that compromise quality or hide functionality behind paywalls? This project offers a powerful, privacy-first solution for image compression that runs entirely on your local machine. With Node.js and Next.js, you can compress images with ease, retaining control over quality without sacrificing performance.
 
 Features
